@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "d34f63a90a153a8c54ea743f88978faf83d01a91"
+      }
+    },
+    {
+      "identity" : "uipilot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/canopas/UIPilot.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "15b33aebc9c302b181897bcb415064ce48ec0eaf"
+      }
+    }
+  ],
+  "version" : 2
+}
