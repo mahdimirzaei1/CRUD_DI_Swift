@@ -85,7 +85,7 @@
 			children = (
 				8E48C95A2A7795490075A70C /* Entities */,
 				8E48C94B2A7795330075A70C /* Protocols */,
-				8E48C9392A7794940075A70C /* Models */,
+				8E48C9392A7794940075A70C /* ViewModels */,
 				8E48C9462A77952B0075A70C /* Repositories */,
 				8E48C9502A77953A0075A70C /* Views */,
 				8E48C9572A7795420075A70C /* Helpers */,
@@ -106,14 +106,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8E48C9392A7794940075A70C /* Models */ = {
+		8E48C9392A7794940075A70C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				8E48C93A2A7794940075A70C /* ItemListViewModel.swift */,
 				8E48C93B2A7794940075A70C /* ItemDetailViewModel.swift */,
 				8E48C93C2A7794940075A70C /* ItemInsertViewModel.swift */,
 			);
-			path = Models;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		8E48C9462A77952B0075A70C /* Repositories */ = {
@@ -155,10 +155,18 @@
 		8E48C95A2A7795490075A70C /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				8E6FA74D2A9646B600907615 /* DB Models */,
 				8E48C95B2A7795490075A70C /* Item.swift */,
-				8E48C95C2A7795490075A70C /* ItemDbModel.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		8E6FA74D2A9646B600907615 /* DB Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E48C95C2A7795490075A70C /* ItemDbModel.swift */,
+			);
+			path = "DB Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
